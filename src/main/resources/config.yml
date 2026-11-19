@@ -1,0 +1,17 @@
+# CustomRecipes
+# Made by Mineconed
+#
+# Make recipes in game with /customrecipes (alias /recipes).
+# Recipes are saved in recipes.yml.
+
+# Language: en or da
+language: en
+
+# Show custom recipes in the recipe book (1.13 and newer)
+add_to_recipe_book: true
+
+# Furnace recipes
+furnace:
+  xp: 0.1
+  # 200 ticks = 10 seconds
+  cook_ticks: 200

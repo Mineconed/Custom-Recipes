@@ -1,0 +1,16 @@
+name: CustomRecipes
+version: ${project.version}
+main: dk.mineconed.customrecipes.CustomRecipes
+author: Mineconed
+api-version: 1.13
+commands:
+  customrecipes:
+    aliases: [crecipes, recipes]
+    usage: /customrecipes [view|list|give|delete|reload]
+permissions:
+  customrecipes.admin:
+    default: op
+  customrecipes.view:
+    default: true
+  customrecipes.craft.all:
+    default: op
