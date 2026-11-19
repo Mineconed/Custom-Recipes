@@ -49,13 +49,3 @@
 
 ## Versions
 1.8 to 1.21. Recipes are saved in recipes.yml.
-
-## Build
-You need Java 8 or newer and Maven.
-```
-mvn package
-```
-The plugin is in `target/CustomRecipes.jar`.
-
-## License
-MIT. Made by Mineconed.
